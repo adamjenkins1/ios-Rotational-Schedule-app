@@ -70,11 +70,43 @@ class scheduleDay: UIViewController {
             curMonth = String(curDate.characters.dropLast(1))
         }
         
-        if hour >= 3 && AMPM == "PM" {
+        if hour >= 3 && hour != 12 && AMPM == "PM" {
             var day = Int(String(curDate.characters.dropFirst(4)))!
             day += 1
-            if curDate == "Jun 30" {
-                curMonth = "Jul "
+            if curDate == "Aug 31" {
+                curMonth = "Sep "
+                day = 1
+            }
+            else if curDate == "Sep 30" {
+                curMonth = "Oct "
+                day = 1
+            }
+            else if curDate == "Oct 31" {
+                curMonth = "Nov "
+                day = 1
+            }
+            else if curDate == "Nov 30" {
+                curMonth = "Dec "
+                day = 1
+            }
+            else if curDate == "Dec 31" {
+                curMonth = "Jan "
+                day = 1
+            }
+            else if curDate == "Jan 31" {
+                curMonth = "Feb "
+                day = 1
+            }
+            else if curDate == "Feb 28" {
+                curMonth = "Mar "
+                day = 1
+            }
+            else if curDate == "Mar 31" {
+                curMonth = "Apr "
+                day = 1
+            }
+            else if curDate == "Apr 30" {
+                curMonth = "May "
                 day = 1
             }
             else if curDate.characters.count == 6 {
@@ -85,7 +117,7 @@ class scheduleDay: UIViewController {
             }
             curDate = curMonth + String(day)
         }
-        curDate = "May 24"
+        //curDate = "May 24"
         if dictionary[curDate] != nil {
             picture.image = UIImage(named: dictionary[curDate]!)
         }

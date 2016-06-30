@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C24163C1D239C23002ED2B3 /* scheduleMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C24163B1D239C23002ED2B3 /* scheduleMonth.swift */; };
+		0C3079AC1D23331A00F1DF35 /* scheduleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3079AB1D23331A00F1DF35 /* scheduleDay.swift */; };
+		0C99ED911D2452B600AB9DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99ED901D2452B600AB9DE8 /* AppDelegate.swift */; };
+		0C99ED931D2452B600AB9DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99ED921D2452B600AB9DE8 /* ViewController.swift */; };
+		0C99ED961D2452B600AB9DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C99ED941D2452B600AB9DE8 /* Main.storyboard */; };
+		0C99ED981D2452B600AB9DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C99ED971D2452B600AB9DE8 /* Assets.xcassets */; };
+		0C99ED9B1D2452B600AB9DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C99ED991D2452B600AB9DE8 /* LaunchScreen.storyboard */; };
+		0C99EDA61D2452B600AB9DE8 /* rotationalscheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99EDA51D2452B600AB9DE8 /* rotationalscheduleTests.swift */; };
+		0C99EDB11D2452B600AB9DE8 /* rotationalscheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99EDB01D2452B600AB9DE8 /* rotationalscheduleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C99EDA21D2452B600AB9DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C99ED851D2452B600AB9DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C99ED8C1D2452B600AB9DE8;
+			remoteInfo = rotationalschedule;
+		};
+		0C99EDAD1D2452B600AB9DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C99ED851D2452B600AB9DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C99ED8C1D2452B600AB9DE8;
+			remoteInfo = rotationalschedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C24163B1D239C23002ED2B3 /* scheduleMonth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scheduleMonth.swift; sourceTree = SOURCE_ROOT; };
+		0C3079AB1D23331A00F1DF35 /* scheduleDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = scheduleDay.swift; path = rotationalschedule/scheduleDay.swift; sourceTree = SOURCE_ROOT; };
+		0C99ED8D1D2452B600AB9DE8 /* rotationalschedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotationalschedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C99ED901D2452B600AB9DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C99ED921D2452B600AB9DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C99ED951D2452B600AB9DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C99ED971D2452B600AB9DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C99ED9A1D2452B600AB9DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C99ED9C1D2452B600AB9DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C99EDA11D2452B600AB9DE8 /* rotationalscheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotationalscheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C99EDA51D2452B600AB9DE8 /* rotationalscheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotationalscheduleTests.swift; sourceTree = "<group>"; };
+		0C99EDA71D2452B600AB9DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C99EDAC1D2452B600AB9DE8 /* rotationalscheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotationalscheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C99EDB01D2452B600AB9DE8 /* rotationalscheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotationalscheduleUITests.swift; sourceTree = "<group>"; };
+		0C99EDB21D2452B600AB9DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C99ED8A1D2452B600AB9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99ED9E1D2452B600AB9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99EDA91D2452B600AB9DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C99ED841D2452B600AB9DE8 = {
+			isa = PBXGroup;
+			children = (
+				0C99ED8F1D2452B600AB9DE8 /* rotationalschedule */,
+				0C99EDA41D2452B600AB9DE8 /* rotationalscheduleTests */,
+				0C99EDAF1D2452B600AB9DE8 /* rotationalscheduleUITests */,
+				0C99ED8E1D2452B600AB9DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C99ED8E1D2452B600AB9DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C99ED8D1D2452B600AB9DE8 /* rotationalschedule.app */,
+				0C99EDA11D2452B600AB9DE8 /* rotationalscheduleTests.xctest */,
+				0C99EDAC1D2452B600AB9DE8 /* rotationalscheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C99ED8F1D2452B600AB9DE8 /* rotationalschedule */ = {
+			isa = PBXGroup;
+			children = (
+				0C99ED901D2452B600AB9DE8 /* AppDelegate.swift */,
+				0C99ED921D2452B600AB9DE8 /* ViewController.swift */,
+				0C99ED941D2452B600AB9DE8 /* Main.storyboard */,
+				0C24163B1D239C23002ED2B3 /* scheduleMonth.swift */,
+				0C99ED971D2452B600AB9DE8 /* Assets.xcassets */,
+				0C99ED991D2452B600AB9DE8 /* LaunchScreen.storyboard */,
+				0C99ED9C1D2452B600AB9DE8 /* Info.plist */,
+				0C3079AB1D23331A00F1DF35 /* scheduleDay.swift */,
+			);
+			path = rotationalschedule;
+			sourceTree = "<group>";
+		};
+		0C99EDA41D2452B600AB9DE8 /* rotationalscheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C99EDA51D2452B600AB9DE8 /* rotationalscheduleTests.swift */,
+				0C99EDA71D2452B600AB9DE8 /* Info.plist */,
+			);
+			path = rotationalscheduleTests;
+			sourceTree = "<group>";
+		};
+		0C99EDAF1D2452B600AB9DE8 /* rotationalscheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C99EDB01D2452B600AB9DE8 /* rotationalscheduleUITests.swift */,
+				0C99EDB21D2452B600AB9DE8 /* Info.plist */,
+			);
+			path = rotationalscheduleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C99ED8C1D2452B600AB9DE8 /* rotationalschedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C99EDB51D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalschedule" */;
+			buildPhases = (
+				0C99ED891D2452B600AB9DE8 /* Sources */,
+				0C99ED8A1D2452B600AB9DE8 /* Frameworks */,
+				0C99ED8B1D2452B600AB9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rotationalschedule;
+			productName = rotationalschedule;
+			productReference = 0C99ED8D1D2452B600AB9DE8 /* rotationalschedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C99EDA01D2452B600AB9DE8 /* rotationalscheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C99EDB81D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalscheduleTests" */;
+			buildPhases = (
+				0C99ED9D1D2452B600AB9DE8 /* Sources */,
+				0C99ED9E1D2452B600AB9DE8 /* Frameworks */,
+				0C99ED9F1D2452B600AB9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C99EDA31D2452B600AB9DE8 /* PBXTargetDependency */,
+			);
+			name = rotationalscheduleTests;
+			productName = rotationalscheduleTests;
+			productReference = 0C99EDA11D2452B600AB9DE8 /* rotationalscheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C99EDAB1D2452B600AB9DE8 /* rotationalscheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C99EDBB1D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalscheduleUITests" */;
+			buildPhases = (
+				0C99EDA81D2452B600AB9DE8 /* Sources */,
+				0C99EDA91D2452B600AB9DE8 /* Frameworks */,
+				0C99EDAA1D2452B600AB9DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C99EDAE1D2452B600AB9DE8 /* PBXTargetDependency */,
+			);
+			name = rotationalscheduleUITests;
+			productName = rotationalscheduleUITests;
+			productReference = 0C99EDAC1D2452B600AB9DE8 /* rotationalscheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C99ED851D2452B600AB9DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adam Jenkins";
+				TargetAttributes = {
+					0C99ED8C1D2452B600AB9DE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0C99EDA01D2452B600AB9DE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C99ED8C1D2452B600AB9DE8;
+					};
+					0C99EDAB1D2452B600AB9DE8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C99ED8C1D2452B600AB9DE8;
+					};
+				};
+			};
+			buildConfigurationList = 0C99ED881D2452B600AB9DE8 /* Build configuration list for PBXProject "rotationalschedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C99ED841D2452B600AB9DE8;
+			productRefGroup = 0C99ED8E1D2452B600AB9DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C99ED8C1D2452B600AB9DE8 /* rotationalschedule */,
+				0C99EDA01D2452B600AB9DE8 /* rotationalscheduleTests */,
+				0C99EDAB1D2452B600AB9DE8 /* rotationalscheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C99ED8B1D2452B600AB9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99ED9B1D2452B600AB9DE8 /* LaunchScreen.storyboard in Resources */,
+				0C99ED981D2452B600AB9DE8 /* Assets.xcassets in Resources */,
+				0C99ED961D2452B600AB9DE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99ED9F1D2452B600AB9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99EDAA1D2452B600AB9DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C99ED891D2452B600AB9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99ED931D2452B600AB9DE8 /* ViewController.swift in Sources */,
+				0C24163C1D239C23002ED2B3 /* scheduleMonth.swift in Sources */,
+				0C99ED911D2452B600AB9DE8 /* AppDelegate.swift in Sources */,
+				0C3079AC1D23331A00F1DF35 /* scheduleDay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99ED9D1D2452B600AB9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99EDA61D2452B600AB9DE8 /* rotationalscheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C99EDA81D2452B600AB9DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C99EDB11D2452B600AB9DE8 /* rotationalscheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C99EDA31D2452B600AB9DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C99ED8C1D2452B600AB9DE8 /* rotationalschedule */;
+			targetProxy = 0C99EDA21D2452B600AB9DE8 /* PBXContainerItemProxy */;
+		};
+		0C99EDAE1D2452B600AB9DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C99ED8C1D2452B600AB9DE8 /* rotationalschedule */;
+			targetProxy = 0C99EDAD1D2452B600AB9DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C99ED941D2452B600AB9DE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C99ED951D2452B600AB9DE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C99ED991D2452B600AB9DE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C99ED9A1D2452B600AB9DE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C99EDB31D2452B600AB9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C99EDB41D2452B600AB9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C99EDB61D2452B600AB9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rotationalschedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C99EDB71D2452B600AB9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rotationalschedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalschedule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C99EDB91D2452B600AB9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rotationalscheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalscheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotationalschedule.app/rotationalschedule";
+			};
+			name = Debug;
+		};
+		0C99EDBA1D2452B600AB9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = rotationalscheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalscheduleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotationalschedule.app/rotationalschedule";
+			};
+			name = Release;
+		};
+		0C99EDBC1D2452B600AB9DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rotationalscheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalscheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rotationalschedule;
+			};
+			name = Debug;
+		};
+		0C99EDBD1D2452B600AB9DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = rotationalscheduleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamjenkins.rotationalscheduleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = rotationalschedule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C99ED881D2452B600AB9DE8 /* Build configuration list for PBXProject "rotationalschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C99EDB31D2452B600AB9DE8 /* Debug */,
+				0C99EDB41D2452B600AB9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C99EDB51D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalschedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C99EDB61D2452B600AB9DE8 /* Debug */,
+				0C99EDB71D2452B600AB9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C99EDB81D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalscheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C99EDB91D2452B600AB9DE8 /* Debug */,
+				0C99EDBA1D2452B600AB9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C99EDBB1D2452B600AB9DE8 /* Build configuration list for PBXNativeTarget "rotationalscheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C99EDBC1D2452B600AB9DE8 /* Debug */,
+				0C99EDBD1D2452B600AB9DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C99ED851D2452B600AB9DE8 /* Project object */;
+}

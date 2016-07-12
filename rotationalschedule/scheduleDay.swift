@@ -45,13 +45,187 @@ class scheduleDay: UIViewController {
             5: "start_with_5_collab_nobg",
             6: "start_with_6_collab_nobg"
         ]
-        var curPeriod = 5
-        for i in 2..<25 {
-            if i != 7 && i != 8 && i != 14 && i != 15 && i != 21 && i != 22 {
+        let minDays :[Int:String] = [
+            1: "start_with_1_min_nobg",
+            2: "start_with_2_min_nobg",
+            3: "start_with_3_min_nobg",
+            4: "start_with_4_min_nobg",
+            5: "start_with_5_min_nobg",
+            6: "start_with_6_min_nobg"
+        ]
+        var curPeriod = 1
+        for i in 10..<32 {
+            if i != 13 && i != 14 && i != 21 && i != 22 && i != 27 && i != 28 {
                 if curPeriod >= 7 {
                     curPeriod = 1
                 }
-                if i == 4{
+                if i == 17 {
+                    dictionary["Aug " + String(i)] = collabDays[curPeriod]
+                }
+                else if i == 10 {
+                    dictionary["Aug " + String(i)] = minDays[curPeriod]
+                }
+                else {
+                    dictionary["Aug " + String(i)] = regularDays[curPeriod]
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 1..<31 {
+            if i != 3 && i != 4 && i != 10 && i != 11 && i != 17
+                && i != 18 && i != 24 && i != 25{
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i != 5 {
+                    if i == 7 || i == 21 {
+                        dictionary["Sep " + String(i)] = collabDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Sep " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 3..<32 {
+            if i != 8 && i != 9 && i != 15 && i != 16 && i != 22
+                && i != 23 && i != 29 && i != 30{
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i != 7 && i != 10 {
+                    if i == 5 || i == 19 {
+                        dictionary["Oct " + String(i)] = collabDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Oct " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+                
+            }
+        }
+        
+        for i in 1..<31 {
+            if i != 5 && i != 6 && i != 12 && i != 13 && i != 19
+                && i != 20 && i != 26 && i != 27{
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i != 11 && i != 24 && i != 25 { // exclude holidays
+                    if i == 2 || i == 16 {
+                        dictionary["Nov " + String(i)] = collabDays[curPeriod]
+                    }
+                    else if i == 23 {
+                        dictionary["Nov " + String(i)] = minDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Nov " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 1..<14 {
+            if i != 3 && i != 4 && i != 10 && i != 11 {
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i == 7 {
+                    dictionary["Dec " + String(i)] = collabDays[curPeriod]
+                }
+                else {
+                    dictionary["Dec " + String(i)] = regularDays[curPeriod]
+                }
+                curPeriod += 1
+            }
+        }
+        // add finals days
+        dictionary["Dec 14"] = "finals_day_1_nobg"
+        dictionary["Dec 15"] = "finals_day_2_nobg"
+        dictionary["Dec 16"] = "finals_day_3_nobg"
+        
+        curPeriod = 6
+        for i in 3..<32 {
+            if i != 7 && i != 8 && i != 14 && i != 15 && i != 21
+                && i != 22 && i != 28 && i != 29{
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i != 16 { // exclude holidays
+                    if i == 4 || i == 18 {
+                        dictionary["Jan " + String(i)] = collabDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Jan " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 1..<29 {
+            if i != 4 && i != 5 && i != 11 && i != 12 && i != 18
+                && i != 19 && i != 25 && i != 26 {
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i < 20 || i > 24 { // exclude holidays
+                    if i == 1 || i == 15 {
+                        dictionary["Feb " + String(i)] = collabDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Feb " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 1..<32 {
+            if i != 4 && i != 5 && i != 11 && i != 12 && i != 18 && i != 19
+                && i != 25 && i != 26{
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i == 1 || i == 15 {
+                    dictionary["Mar " + String(i)] = collabDays[curPeriod]
+                }
+                else {
+                    dictionary["Mar " + String(i)] = regularDays[curPeriod]
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 3..<29 {
+            if i != 8 && i != 9 && i != 15 && i != 16 && i != 22
+                && i != 23 {
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i < 10 || i > 14 { // exclude holidays
+                    if i == 5 || i == 19 {
+                        dictionary["Apr " + String(i)] = collabDays[curPeriod]
+                    }
+                    else {
+                        dictionary["Apr " + String(i)] = regularDays[curPeriod]
+                    }
+                }
+                curPeriod += 1
+            }
+        }
+        
+        for i in 1..<24 {
+            if i != 6 && i != 7 && i != 13 && i != 14 && i != 20 && i != 21 {
+                if curPeriod >= 7 {
+                    curPeriod = 1
+                }
+                if i == 3 {
                     dictionary["May " + String(i)] = collabDays[curPeriod]
                 }
                 else {
@@ -60,6 +234,10 @@ class scheduleDay: UIViewController {
                 curPeriod += 1
             }
         }
+        dictionary["May 24"] = "finals_day_1_nobg"
+        dictionary["May 25"] = "finals_day_2_nobg"
+        dictionary["May 26"] = "finals_day_3_nobg"
+        
         let hour = Int(String(curTime.characters.dropLast(9)))
         let AMPM = String(curTime.characters.dropFirst(8))
         var curMonth = ""
@@ -116,8 +294,12 @@ class scheduleDay: UIViewController {
                 curMonth = String(curDate.characters.dropLast())
             }
             curDate = curMonth + String(day)
+            messageText.text = "Tomorrow's Schedule"
         }
-        //curDate = "May 24"
+        else {
+            messageText.text = "Today's Schedule"
+        }
+        
         if dictionary[curDate] != nil {
             picture.image = UIImage(named: dictionary[curDate]!)
         }

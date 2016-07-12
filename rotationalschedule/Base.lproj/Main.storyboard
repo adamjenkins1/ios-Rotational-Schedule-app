@@ -24,9 +24,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="freedom" translatesAutoresizingMaskIntoConstraints="NO" id="tIR-NT-MfJ">
-                                <rect key="frame" x="20" y="97" width="280" height="243"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9q-LS-96Y">
                                 <rect key="frame" x="78" y="438" width="164" height="30"/>
                                 <color key="backgroundColor" red="0.82745098039999998" green="0.82745098039999998" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -68,6 +65,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="freedom" translatesAutoresizingMaskIntoConstraints="NO" id="tIR-NT-MfJ">
+                                <rect key="frame" x="20" y="97" width="280" height="243"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -171,9 +171,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start_with_1_nobg" translatesAutoresizingMaskIntoConstraints="NO" id="F8R-Bh-UTk">
-                                <rect key="frame" x="20" y="97" width="269" height="261"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD7-hJ-25b">
                                 <rect key="frame" x="78" y="438" width="164" height="30"/>
                                 <color key="backgroundColor" red="0.82745098039999998" green="0.82745098039999998" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -187,11 +184,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No school today Enjoy your day off!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXb-c8-lgo">
-                                <rect key="frame" x="20" y="77" width="280" height="47"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <rect key="frame" x="20" y="32" width="280" height="137"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="start_with_1_nobg" translatesAutoresizingMaskIntoConstraints="NO" id="F8R-Bh-UTk">
+                                <rect key="frame" x="26" y="97" width="269" height="261"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

@@ -55,7 +55,7 @@ class scheduleDay: UIViewController {
         ]
         var curPeriod = 1
         for i in 10..<32 {
-            if i != 13 && i != 14 && i != 21 && i != 22 && i != 27 && i != 28 {
+            if i != 13 && i != 14 && i != 20 && i != 21 && i != 27 && i != 28 {
                 if curPeriod >= 7 {
                     curPeriod = 1
                 }
@@ -299,7 +299,7 @@ class scheduleDay: UIViewController {
         else {
             messageText.text = "Today's Schedule"
         }
-        
+        curDate = "Aug 9"
         if dictionary[curDate] != nil {
             picture.image = UIImage(named: dictionary[curDate]!)
         }

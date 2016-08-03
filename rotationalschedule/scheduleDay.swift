@@ -299,7 +299,7 @@ class scheduleDay: UIViewController {
         else {
             messageText.text = "Today's Schedule"
         }
-        curDate = "Aug 9"
+        
         if dictionary[curDate] != nil {
             picture.image = UIImage(named: dictionary[curDate]!)
         }

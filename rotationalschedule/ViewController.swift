@@ -23,18 +23,6 @@ class ViewController: UIViewController {
         formatter.timeStyle = .MediumStyle
         
         let dateString = formatter.stringFromDate(currentDate)
-        /*
-        let currentDate = NSDate()
-        let dateFormatter = NSDateFormatter()
-        let timeFormatter = NSDateFormatter()
-        dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
-        timeFormatter.timeStyle = .MediumStyle
-        
-        let dateOnly = dateFormatter.stringFromDate(currentDate)
-        let curTime = timeFormatter.stringFromDate(currentDate)
-        
-        let curDate = dateOnly.characters.dropLast(6)
-        */
         currentDateLabel.text = "Today is \(String(dateString))"
         
         //currentDateLabel.text = String(currentDate)
